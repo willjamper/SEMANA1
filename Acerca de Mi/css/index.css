@@ -1,0 +1,83 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-digital-puntos-lineas-conexion_23-2148821703.jpg?w=1380&t=st=1694220604~exp=1694221204~hmac=5c00d3406876311e24406e54b1cc80b02c42a550535640ac7a283e6b26279a5e);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+main {
+    max-width: 320px;
+    padding: 16px;
+    margin: 16px;
+    background-color: rgba(7, 7, 7, 0.5);
+    backdrop-filter: blur(16px);
+    border-radius: 16px;
+    box-shadow:
+        0 0 4px 2px rgba(255, 255, 255, 0.5),
+        0 0 8px 2px rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+img {
+    display: block;
+    border-radius: 50%;
+    box-shadow: 0 0 16px 0 rgba(255, 255, 255, 0.5);
+}
+
+hi,
+h2,
+p {
+    margin: 0;
+}
+
+h2,
+span {
+    color: #08b371;
+    font-weight: 400;
+}
+
+
+h1 {
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 14px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
+
+.skill {
+    padding: 4px 16px;
+    border-radius: 16px;
+    background-color: #087ea4;
+    font-weight: 700;
+
+}
+
+a {
+    font-size: 20px;
+    color: white;
+}
